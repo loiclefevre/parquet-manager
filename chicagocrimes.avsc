@@ -1,0 +1,96 @@
+{
+ "type": "record",
+ "name": "chicagoCrimesRecords",
+ "doc": "Chicago Crimes Records",
+ "fields":
+  [
+  {
+   "name": "ID",
+   "type": "int"
+  },
+  {
+   "name": "Case_Number",
+   "type": ["null", "string"]
+  },
+  {
+   "name": "Date_Of_Crime",
+   "type": "string"
+  },
+  {
+   "name": "Block",
+   "type": "string"
+  },
+  {
+   "name": "IUCR",
+   "type": "string"
+  },
+  {
+   "name": "Primary_Type",
+   "type": "string"
+  },
+  {
+   "name": "Description",
+   "type": "string"
+  },
+  {
+   "name": "Location_Description",
+   "type": ["null", "string"]
+  },
+  {
+   "name": "Arrest",
+   "type": "string"
+  },
+  {
+   "name": "Domestic",
+   "type": "string"
+  },
+  {
+   "name": "Beat",
+   "type": "string"
+  },
+  {
+   "name": "District",
+   "type": ["null", "string"]
+  },
+  {
+   "name": "Ward",
+   "type": ["null", "string"]
+  },
+  {
+   "name": "Community_Area",
+   "type": ["null", "string"]
+  },
+  {
+   "name": "FBI_Code",
+   "type": "string"
+  },
+  {
+   "name": "X_Coordinate",
+   "type":  ["null", "int"]
+  },
+  {
+   "name": "Y_Coordinate",
+   "type":  ["null", "int"]
+  },
+  {
+   "name": "Year",
+   "type": "int"
+  },
+  {
+   "name": "Updated_On",
+   "type": "string"
+  },
+  {
+   "name": "Latitude",
+   "type":  ["null", "double"]
+  },
+  {
+   "name": "Longitude",
+   "type":  ["null", "double"]
+  },
+  {
+   "name": "Location",
+   "type":  ["null", "string"]
+  }
+ ]
+}
