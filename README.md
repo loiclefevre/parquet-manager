@@ -12,3 +12,6 @@ Syntax: parquet-manager [schema file] [data file in CSV format] [output file in 
 
 ./parquet-manager chicagocrimes.avsc chicagocrimes.csv chicagocrimes.parquet
 ```
+
+You may download the sample open data from here: https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv?accessType=DOWNLOAD
+(Portal: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
