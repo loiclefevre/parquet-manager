@@ -10,7 +10,7 @@ Usage:
 ```Bash
 Syntax: parquet-manager [schema file] [data file in CSV format] [output file in Parquet format]
 
-./parquet-manager chicagocrimes.avsc chicagocrimes.csv chicagocrimes.parquet
+./parquet-manager.sh chicagocrimes.avsc chicagocrimes.csv chicagocrimes.parquet
 ```
 
 You may download the sample open data from here: https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv?accessType=DOWNLOAD
